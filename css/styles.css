@@ -13,6 +13,8 @@
     --primary-white-color: #FFFFFF; 
 }
 
+
+/* Стили для index */
 body {
     background: var(--primary-white-color);
     color: var(--primary-text-color);  
@@ -45,9 +47,16 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link.current {
     color: var(--accent-color);
 }
 
@@ -76,3 +85,6 @@ body {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
+
+
+/* Стили для портфолио */
