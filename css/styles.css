@@ -10,14 +10,19 @@
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196F3;
-    --primary-white-color: #FFFFFF; 
+    --primary-white-color: #FFFFFF;
+    --footer-adress-color: rgba(255, 255, 255, 0.6) 
 }
 
 
 /* Стили для index */
 body {
     background: var(--primary-white-color);
-    color: var(--primary-text-color);  
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;  
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .list {
@@ -27,19 +32,40 @@ body {
 /* шапка */
 .accent {
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
 
 .logo {
     color: var(--title-text-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
+
 
 /* site nav */
 .site-nav .link {
     color: var(--title-text-color);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 
 .auth-nav .link {
     color: var(--primary-text-color);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
 }
 
 .site-nav .link:hover,
@@ -60,19 +86,36 @@ body {
     color: var(--accent-color);
 }
 
-/* Герой */
+.works {
+    background-color: #2F303A;
+}
+
+
+/* Hero */
 .hero-title {
     color: var(--primary-white-color);
+    letter-spacing: 0.06em;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
 }
 
 /* Section */
 .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 /* Features */
 .feature-list .title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 /* button */
@@ -84,7 +127,56 @@ body {
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+
+/* Footer */
+
+.footer-works {
+    background-color: #2F303A;
+}
+
+.footer-works .logo {
+    color: var(--primary-white-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+  
+.footer-local .link {
+    color: var(--footer-adress-color);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.footer-local .link.actual {
+    color: var(--primary-white-color);
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+
+.footer-local .link:hover,
+.footer-local .link:focus {
+    color: var(--accent-color);
 }
 
 
 /* Стили для портфолио */
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+    letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
