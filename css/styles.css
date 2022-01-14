@@ -120,6 +120,10 @@ body {
     list-style: none;
 }
 
+.feature-list .title {
+    text-transform: uppercase; 
+}
+
 /* button */
 .button {
     color: var(--title-text-color);
@@ -182,3 +186,19 @@ body {
     font-size: 16px;
     line-height: 1.62;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
