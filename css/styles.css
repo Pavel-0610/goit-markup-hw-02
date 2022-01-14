@@ -108,6 +108,13 @@ body {
     text-align: center;
 }
 
+.secton-partition {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
 /* Features */
 .feature-list .title {
     color: var(--title-text-color);
@@ -133,6 +140,7 @@ body {
 .button.primary {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    font-family: Roboto, sans-serif;
     letter-spacing: 0.06em;
     font-weight: 700;
     font-size: 16px;
@@ -144,6 +152,11 @@ body {
 
 .footer-works {
     background-color: #2F303A;
+}
+
+.footer-local
+{
+    font-style: normal;
 }
 
 .footer-works .logo {
@@ -161,6 +174,7 @@ body {
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
+    
 }
 
 .footer-local .link.actual {
@@ -181,16 +195,36 @@ body {
 .button.secondary {
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
+    font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
 }
 
+/* Filter */
+.filter-part {
+    color: var(--primary-white-color);
+}
 
+.filter-list {
+    list-style: none;
+}
 
+.filter-list .title {
+    color: var(--title-text-color);
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
 
-
+.filter-list .text {
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em; 
+    font-size: 16px;
+    line-height: 1.87;
+}
 
 
 
