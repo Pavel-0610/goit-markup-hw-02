@@ -115,6 +115,11 @@ body {
     line-height: 1.18;
 }
 
+.section .text {
+    letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.18;
+}
 /* Features */
 .feature-list .title {
     color: var(--title-text-color);
